@@ -9,13 +9,32 @@ package view;
  * @author Dell
  */
 public class FormView extends javax.swing.JFrame {
+    private String role;
+    
+    private void setupLoginButton() {
+    jButton2.addActionListener(e -> {
+        if (role.equals("user")) {
+            UserDashboard userDash = new UserDashboard();
+            userDash.setVisible(true);
+        } else if (role.equals("admin")) {
+            AdminDashboard adminDash = new AdminDashboard();
+            adminDash.setVisible(true);
+        }
+        this.dispose(); // closes the form view
+    });
+}
 
-    /**
-     * Creates new form FormView
-     */
+
+    
     public FormView() {
         initComponents();
     }
+    
+    public FormView(String role) {
+    this.role = role;
+    initComponents();       // NetBeans GUI init
+    setupLoginButton();     // setup login button action
+}
 
     /**
      * This method is called from within the constructor to initialize the form.
