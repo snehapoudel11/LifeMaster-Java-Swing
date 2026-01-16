@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Dell/Desktop/LifeMaster/src/Model/Task.java</file>
-            <file>file:/C:/Users/Dell/Desktop/LifeMaster/src/Model/LifeManager.java</file>
-            <file>file:/C:/Users/Dell/Desktop/LifeMaster/src/Controller/LifeController.java</file>
+            <file>file:/C:/Users/Dell/Desktop/LifeMaster/src/view/AdminDashboard.java</file>
+            <file>file:/C:/Users/Dell/Desktop/LifeMaster/src/view/UserDashboard.java</file>
+            <file>file:/C:/Users/Dell/Desktop/LifeMaster/src/view/LoginView.java</file>
+            <file>file:/C:/Users/Dell/Desktop/LifeMaster/src/view/FormView.java</file>
         </group>
     </open-files>
 </project-private>
